@@ -277,8 +277,9 @@ text-align: center;
 
   #app
   {
-       height: 400px;
-        width: 400px;
+        height: 380px;
+        width: 380px;
+
 
   }
 
@@ -286,7 +287,7 @@ text-align: center;
   .marker {
     position: absolute;
     width: 60px;
-    left:43%;
+    left:43.5%;
     top: -20px;
     z-index: 2;
   }
@@ -294,7 +295,7 @@ text-align: center;
 
   .image-bottom
   {
-    height:600px;
+    height:617px;
   }
 
 
@@ -307,8 +308,9 @@ text-align: center;
 
   #app
   {
-        height: 350px;
-        width: 350px;
+    height: 350px;
+    width: 350px;
+
   }
 
 
@@ -413,4 +415,3 @@ width: 209px;
 
 
 }
-
