@@ -24,7 +24,7 @@ function spin() {
       focused = false;
 
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = window.innerHeight-400;
     canvas.id = "gimmick";
 
     var coin = new Image();
