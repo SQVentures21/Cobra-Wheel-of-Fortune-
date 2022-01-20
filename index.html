@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weiben - Wheel of fortune</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-logo">
+      <img  class="logo" src="assets/logo.png" alt="" />
+    </div>
+    <div id="app">
+      <img
+        class="marker"
+        src="https://cobra.casino-backend.com/system/comfy/cms/files/files/000/001/077/original/marker.png"
+      />
+      <img class="wheel" src="assets/wheel22.png" />
+      <img id="myBtn" class="button" src="assets/spin.png" />
+    </div>
+
+    <div class="main-image">
+      <picture>
+        <source media="(min-width:1367px)" srcset="assets/New_cobras-podium-image-4k.webp">
+        <source media="(max-width:1366px) and (orientation:portrait)" srcset="assets/tablet/cobras-podium_Tablet-portrait.webp">
+        <source media="(max-width:1366px) and (orientation:landscape)" srcset="assets/tablet/cobras-podium_Tablet-landscape.webp">
+        <img class="image-bottom" src="assets/tablet/cobras-podium_Mobile.webp" alt="" />
+      </picture>
+     
+    </div>
+  
+
+    <div id="myModal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content-1">
+        <p class="modal-text-p">
+         Enjoy 
+         <br>
+         <span class="modal-text-p1"> 250 Free Spins </span> 
+         <br>
+            for your first deposit.
+          <br />
+
+          <span class="modal-text-2"
+            >Spin again for an even bigger bonus!
+          </span>
+        </p>
+
+        <div>
+          <img id="spin-again" class="button" src="assets/spinAgain.png" />
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content-2">
+        <p class="modal-text-p-II">
+          Your total win is
+          <br>
+     <span class="modal-text-p2">100% up to 500 EUR</span>      
+           <br>
+            on your deposit 
+            <br>
+      <span class="modal-text-p2">+ 250 Free Spins.</span>      
+          <br />
+          <span class="modal-text-2"
+            >Get your reward instantly on your first deposit.</span
+          >
+        </p>
+        <a href="www.cobra-casino.com">
+          <img class="button" src="assets/button-register.webp" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
