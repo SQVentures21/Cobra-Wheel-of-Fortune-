@@ -286,7 +286,7 @@ text-align: center;
   .marker {
     position: absolute;
     width: 60px;
-    left:43.5%;
+    left:43%;
     top: -20px;
     z-index: 2;
   }
