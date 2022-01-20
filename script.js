@@ -131,7 +131,7 @@ function spin() {
         document.getElementById("gimmick").style.display = "block";
       }
     }, 6000);
-    console.log(c);
+  
   });
 
   wheel.addEventListener("transitionend", () => {
